@@ -61,9 +61,9 @@ python judge.py
 
 
 
-**demo.ipynb**
+**Demo**
 
-We also provide demo.ipynb to demonstrate the process of jailbreaking Gemini step by step.
+We also provide eval_commerical_lvlm_step_by_step.ipynb to demonstrate the process of jailbreaking Gemini step by step. （It is recommended that you use https://nbviewer.org/ to view the ipynb file.）
 
 
 
