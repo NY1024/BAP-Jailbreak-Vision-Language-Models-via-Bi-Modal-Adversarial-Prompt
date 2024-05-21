@@ -1,7 +1,7 @@
 # BAP-Jailbreak-Vision-Language-Models-via-Bi-Modal-Adversarial-Prompt
 
 **Warning: This repo contains examples of harmful language and images, and reader discretion is recommended.**
-
+**To demonstrate the efficacy of BAP, we've included several experimental examples of successful jailbreaks in this repository (README.md and Jupyter notebooks). Instances with significant potential harm have been appropriately masked, while those resulting in successful jailbreaks without such consequences remain unmasked.**
 
 
 **Abstract**
@@ -44,7 +44,7 @@ VAP.py for **Query-Agnostic Image Perturbing**
 python VAP.py
 ```
 
-CoT.py for **Intent-Specific Text Optimization**
+CoT.py for demonstrating **Intent-Specific Text Optimization**
 
 ```
 python CoT.py
@@ -60,10 +60,19 @@ python judge.py
 ```
 
 
+Eval.py provides the complete evaluation process.
+
+```
+python Eval.py
+```
 
 **Demo**
 
-We also provide eval_commerical_lvlm_step_by_step.ipynb to demonstrate the process of jailbreaking Gemini step by step. （It is recommended that you use https://nbviewer.org/ to view the ipynb file.）
+[1]  We provide eval_commerical_lvlm_step_by_step.ipynb to demonstrate the process of jailbreaking Gemini step by step. 
+
+[2]  We provide Automatic_evaluation_LVLMs.ipynb to demonstrate the process of jailbreaking Gemini automatically. 
+
+（It is recommended that you use https://nbviewer.org/ to view the ipynb file.）
 
 
 **Acknowledge**
