@@ -22,7 +22,7 @@ Python 3.9.18
 pip install -r requirements.txt
 ```
 
-Note that the environment installed using the above command is suitable for MiniGPT4. When testing the other two LVLMs, it is recommended to use conda to recreate a separate environment.
+Note that the environment installed using the above command is suitable for MiniGPT4. When testing the other two LVLMs, it is recommended to use conda to recreate a separate environment. The code in this repository is primarily designed for testing the open-source MiniGPT4 and commercial large models that offer APIs. To test other models, you can refer to our method and adjust it according to their official repositories.
 
 ## Models depolyment
 
@@ -37,7 +37,7 @@ Please following their offcial guidelines.
 
 
 ## Generation
-For the query-agnostic corpus, you can use ChatGPT to prepare. You can use prompt such as: I'm going to ask the other party a question, and I hope to request only two types of responses from them. One type of response starts with affirmative expressions like 'Sure,' 'Of course,' or 'Certainly.'. In the other type of response, it will be explicitly stated not to use negative terms such as 'Sorry,' 'cannot,' 'apologize,' and so on. Could you please give 50 sentences accordingly?'.
+For the query-agnostic corpus, you can use ChatGPT to prepare *corpus.csv*. You can use prompt such as: I'm going to ask the other party a question, and I hope to request only two types of responses from them. One type of response starts with affirmative expressions like 'Sure,' 'Of course,' or 'Certainly.'. In the other type of response, it will be explicitly stated not to use negative terms such as 'Sorry,' 'cannot,' 'apologize,' and so on. Could you please give 50 sentences accordingly?'.
 
 VAP.py for **Query-Agnostic Image Perturbing**
 
