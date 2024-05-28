@@ -2,11 +2,13 @@
 
 **Warning: This repo contains examples of harmful language and images, and reader discretion is recommended.**
 **To demonstrate the efficacy of BAP, we've included several experimental examples of successful jailbreaks in this repository (README.md and Jupyter notebooks). Instances with significant potential harm have been appropriately masked, while those resulting in successful jailbreaks without such consequences remain unmasked.**
-
+**Update: The experimental results of BAP jailbreaking can be seen from [Jailbreak_GPT4o](https://github.com/NY1024/Jailbreak_GPT4o).**
 
 **Abstract**
 
 In the realm of large vision language models (LVLMs), jailbreak attacks serve as a red-teaming approach to bypass guardrails and uncover safety implications. Existing jailbreaks predominantly focus on the visual modality, perturbing solely visual inputs in the prompt for attacks. However, they fall short when confronted with aligned models that fuse visual and textual features simultaneously for generation. To address this limitation, this paper introduces the Bi-Modal Adversarial Prompt Attack (BAP), which executes jailbreaks by optimizing textual and visual prompts cohesively. Initially, we adversarially embed universally harmful perturbations in an image, guided by a few-shot query-agnostic corpus (e.g., affirmative prefixes and negative inhibitions). This process ensures that image prompt LVLMs to respond positively to any harmful queries. Subsequently, leveraging the adversarial image, we optimize textual prompts with specific harmful intent. In particular, we utilize a large language model to analyze jailbreak failures and employ chain-of-thought reasoning to refine textual prompts through a feedback-iteration manner. To validate the efficacy of our approach, we conducted extensive evaluations on various datasets and LVLMs, demonstrating that our method significantly outperforms other methods by large margins (+29.03% in attack success rate on average). Additionally, we showcase the potential of our attacks on black-box commercial LVLMs, such as Gemini and ChatGLM.
+
+
 
 ![bap](./imgs/1.png)
 
