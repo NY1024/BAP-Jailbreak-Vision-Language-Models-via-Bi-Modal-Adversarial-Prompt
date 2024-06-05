@@ -2,7 +2,7 @@
 
 **Warning: This repo contains examples of harmful language and images, and reader discretion is recommended.**
 **To demonstrate the efficacy of BAP, we've included several experimental examples of successful jailbreaks in this repository (README.md and Jupyter notebooks). Instances with significant potential harm have been appropriately masked, while those resulting in successful jailbreaks without such consequences remain unmasked.**
-**Update: The experimental results of BAP jailbreaking can be seen from [Jailbreak_GPT4o](https://github.com/NY1024/Jailbreak_GPT4o).**
+**Update: The code and experimental results of BAP jailbreaking GPT-4o can be seen from [Jailbreak_GPT4o](https://github.com/NY1024/Jailbreak_GPT4o).**
 
 **Abstract**
 
